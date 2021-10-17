@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CockpitComponent implements OnInit {
 
+  serverCreated;
+  blueprintCreated;
+
   constructor() { }
 
   ngOnInit(): void {
